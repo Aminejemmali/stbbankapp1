@@ -1,0 +1,4232 @@
+{
+    "items" : [
+    {
+        "id": "000",
+        "bank_id": "10",
+        "name": "AV.H.THAMEUR TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,801304",
+            "longitude": "10,178042"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "001",
+        "bank_id": "10",
+        "name": "R.AL JAZIRA TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7960989",
+            "longitude": "10,175778"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "002",
+        "bank_id": "10",
+        "name": "SOUSSE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,830139",
+            "longitude": "10,6403229999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "003",
+        "bank_id": "10",
+        "name": "MAHDIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MAHDIA",
+            "county": "MAHDIA",
+            "state": "MAHDIA",
+            "postcode": "5100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,5032209496669",
+            "longitude": "11,068816781044"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "004",
+        "bank_id": "10",
+        "name": "AV.H.CHAKER  SFAX",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7331327",
+            "longitude": "10,7630650999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "005",
+        "bank_id": "10",
+        "name": "TUNIS PORT",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1001      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8089822",
+            "longitude": "10,1524271"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "006",
+        "bank_id": "10",
+        "name": "DAR CHAABANE ELFEHRI",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8011      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,4620916794337",
+            "longitude": "10,7473272085189"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "007",
+        "bank_id": "10",
+        "name": "GABES",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GABES",
+            "county": "GABES",
+            "state": "GABES",
+            "postcode": "6000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8875642520271",
+            "longitude": "10,0963604450225"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "008",
+        "bank_id": "10",
+        "name": "BEJA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEJA",
+            "county": "BEJA",
+            "state": "BEJA",
+            "postcode": "9000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7233614",
+            "longitude": "9,18550370000002"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "009",
+        "bank_id": "10",
+        "name": "KAIROUAN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KAIROUAN",
+            "county": "KAIROUAN",
+            "state": "KAIROUAN",
+            "postcode": "3100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,6729990546972",
+            "longitude": "10,1017811894416"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "010",
+        "bank_id": "10",
+        "name": "LE KEF",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "LE KEF",
+            "county": "LE KEF",
+            "state": "LE KEF",
+            "postcode": "7100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,1796616642452",
+            "longitude": "8,71042013168335"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "011",
+        "bank_id": "10",
+        "name": "BIZERTE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,2702236671711",
+            "longitude": "9,87276747822761"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "012",
+        "bank_id": "10",
+        "name": "TEBOURBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MANOUBA",
+            "county": "MANOUBA",
+            "state": "MANOUBA",
+            "postcode": "1130      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8272741",
+            "longitude": "9,84371780000003"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "013",
+        "bank_id": "10",
+        "name": "GROMBALIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8030      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,6004032",
+            "longitude": "10,4973359"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "014",
+        "bank_id": "10",
+        "name": "RADES",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2040      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,767294481048",
+            "longitude": "10,2696418762207"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "015",
+        "bank_id": "10",
+        "name": "MENZEL BOURGUIBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,1559394",
+            "longitude": "9,78883949999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "016",
+        "bank_id": "10",
+        "name": "JENDOUBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "JENDOUBA",
+            "county": "JENDOUBA",
+            "state": "JENDOUBA",
+            "postcode": "8100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,5010791",
+            "longitude": "8,77833899999996"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "017",
+        "bank_id": "10",
+        "name": "MONASTIR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,772544",
+            "longitude": "10,8370979999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "018",
+        "bank_id": "10",
+        "name": "MOKNINE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,629256250286",
+            "longitude": "10,9004706144332"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "019",
+        "bank_id": "10",
+        "name": "KSAR HELLAL ",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5070      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,6507601",
+            "longitude": "10,8889504999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "020",
+        "bank_id": "10",
+        "name": "ZARZIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4170      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,5033008373627",
+            "longitude": "11,1099886894226"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "021",
+        "bank_id": "10",
+        "name": "GAFSA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GAFSA",
+            "county": "GAFSA",
+            "state": "GAFSA",
+            "postcode": "2100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,4173098472077",
+            "longitude": "8,79118680953979"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "022",
+        "bank_id": "10",
+        "name": "MANAR III",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2092      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8424473146668",
+            "longitude": "10,166140794754"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "023",
+        "bank_id": "10",
+        "name": "KASSERINE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KASSERINE",
+            "county": "KASSERINE",
+            "state": "KASSERINE",
+            "postcode": "1200      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,1681033370406",
+            "longitude": "8,83359789848327"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "024",
+        "bank_id": "10",
+        "name": "THAMEUR '024'",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "025",
+        "bank_id": "10",
+        "name": "JERBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4180      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8702284794957",
+            "longitude": "10,8516463637351"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "026",
+        "bank_id": "10",
+        "name": "HAJEB EL AYOUN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KAIROUAN",
+            "county": "KAIROUAN",
+            "state": "KAIROUAN",
+            "postcode": "3160      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,39665911523",
+            "longitude": "9,54438328742981"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "027",
+        "bank_id": "10",
+        "name": "EL OUARDANINE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5010      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,7095964330895",
+            "longitude": "10,6753876805305"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "028",
+        "bank_id": "10",
+        "name": "MEDENINE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,3479706418578",
+            "longitude": "10,4879280924797"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "029",
+        "bank_id": "10",
+        "name": "HAMMAMET",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,403898",
+            "longitude": "10,602241"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "030",
+        "bank_id": "10",
+        "name": "BEN GARDANE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4160      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,1385461999999",
+            "longitude": "11,2203893999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "031",
+        "bank_id": "10",
+        "name": "NABEUL",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,4521400284884",
+            "longitude": "10,7351875305175"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "032",
+        "bank_id": "10",
+        "name": "KORBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8070      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,5749586561073",
+            "longitude": "10,8589674532413"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "033",
+        "bank_id": "10",
+        "name": "KELIBIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8090      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8474947",
+            "longitude": "11,0917495999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "034",
+        "bank_id": "10",
+        "name": "BAB SOUIKA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1006      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8049985",
+            "longitude": "10,1686007"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "035",
+        "bank_id": "10",
+        "name": "R.K.PACHA TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1002      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8193277534742",
+            "longitude": "10,1850436627864"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "036",
+        "bank_id": "10",
+        "name": "MEDINA TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1008      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7969959012394",
+            "longitude": "10,169386267662"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "037",
+        "bank_id": "10",
+        "name": "CITE MAHRAJ.MENZAH",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1082      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8297172850204",
+            "longitude": "10,1787967979907"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "038",
+        "bank_id": "10",
+        "name": "SFAX ZITOUNA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7852544297585",
+            "longitude": "10,7211729884147"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "039",
+        "bank_id": "10",
+        "name": "SFAX HACHED",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7332506",
+            "longitude": "10,7547958"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "040",
+        "bank_id": "10",
+        "name": "M SAKEN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4070      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,7299573422913",
+            "longitude": "10,5781817436218"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "041",
+        "bank_id": "10",
+        "name": "EL-JEM",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MAHDIA",
+            "county": "MAHDIA",
+            "state": "MAHDIA",
+            "postcode": "5160      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,2949928",
+            "longitude": "10,7117137999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "042",
+        "bank_id": "10",
+        "name": "JEMMAL",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5020      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,6241114",
+            "longitude": "10,7588475999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "043",
+        "bank_id": "10",
+        "name": "PL.VICTOIRE TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,798918169879",
+            "longitude": "10,1755312085151"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "044",
+        "bank_id": "10",
+        "name": "SIDI BOUZID",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SIDI BOUZID",
+            "county": "SIDI BOUZID",
+            "state": "SIDI BOUZID",
+            "postcode": "9100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,0380960373473",
+            "longitude": "9,49059963226318"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "045",
+        "bank_id": "10",
+        "name": "MEGRINE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2033      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7704851535123",
+            "longitude": "10,2308557927608"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "046",
+        "bank_id": "10",
+        "name": "TOZEUR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TOZEUR",
+            "county": "TOZEUR",
+            "state": "TOZEUR",
+            "postcode": "2200      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,9209009359552",
+            "longitude": "8,13627183437347"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "047",
+        "bank_id": "10",
+        "name": "SAKIET EZZIT",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3021      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,8006156",
+            "longitude": "10,7612752"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "048",
+        "bank_id": "10",
+        "name": "TATAOUINE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TATAOUINE",
+            "county": "TATAOUINE",
+            "state": "TATAOUINE",
+            "postcode": "3200      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8782053764229",
+            "longitude": "10,0642383098602"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "049",
+        "bank_id": "10",
+        "name": "MENZEL TEMIME",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8080      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7808141",
+            "longitude": "10,9874919999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "050",
+        "bank_id": "10",
+        "name": "METLAOUI",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GAFSA",
+            "county": "GAFSA",
+            "state": "GAFSA",
+            "postcode": "2130      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,3158639256024",
+            "longitude": "8,40207338333129"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "051",
+        "bank_id": "10",
+        "name": "SOUSSE MEDINA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,8272562506998",
+            "longitude": "10,639552026987"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "052",
+        "bank_id": "10",
+        "name": "LE KRAM",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2015      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8332547",
+            "longitude": "10,3161013999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "053",
+        "bank_id": "10",
+        "name": "KSOUR ESSAF",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MAHDIA",
+            "county": "MAHDIA",
+            "state": "MAHDIA",
+            "postcode": "5180      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,4191849806338",
+            "longitude": "10,9964588284492"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "054",
+        "bank_id": "10",
+        "name": "ZAGHOUAN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ZAGHOUAN",
+            "county": "ZAGHOUAN",
+            "state": "ZAGHOUAN",
+            "postcode": "1100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,3997568734714",
+            "longitude": "10,1468020677566"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "055",
+        "bank_id": "10",
+        "name": "PONT DU FAHS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ZAGHOUAN",
+            "county": "ZAGHOUAN",
+            "state": "ZAGHOUAN",
+            "postcode": "1140      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,3793396325131",
+            "longitude": "9,90695357322692"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "056",
+        "bank_id": "10",
+        "name": "ARIANA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ARIANA",
+            "county": "ARIANA",
+            "state": "ARIANA",
+            "postcode": "2080      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8593108037595",
+            "longitude": "10,1901358366012"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "057",
+        "bank_id": "10",
+        "name": "HAMMAM-LIF",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7308662888681",
+            "longitude": "10,3358978033065"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "058",
+        "bank_id": "10",
+        "name": "GHOMRASSEN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TATAOUINE",
+            "county": "TATAOUINE",
+            "state": "TATAOUINE",
+            "postcode": "3220      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,0593268999999",
+            "longitude": "10,3376067"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "059",
+        "bank_id": "10",
+        "name": "AV.J.JAURES TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1002      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8025274",
+            "longitude": "10,1821777"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "060",
+        "bank_id": "10",
+        "name": "GARE TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7949275",
+            "longitude": "10,1804809999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "061",
+        "bank_id": "10",
+        "name": "SILIANA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SILIANA",
+            "county": "SILIANA",
+            "state": "SILIANA",
+            "postcode": "6100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,0870663354954",
+            "longitude": "9,37031999230384"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "062",
+        "bank_id": "10",
+        "name": "R.PALESTINE TUNIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1002      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8131414583557",
+            "longitude": "10,1807427406311"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "063",
+        "bank_id": "10",
+        "name": "JEBENIANA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3080      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,0320828570931",
+            "longitude": "10,9089893102645"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "064",
+        "bank_id": "10",
+        "name": "SOUSSE EL KANTAOUI",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4011      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,8893978",
+            "longitude": "10,5933952"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "065",
+        "bank_id": "10",
+        "name": "SOLIMAN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8020      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,6938358167767",
+            "longitude": "10,495730638504"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "066",
+        "bank_id": "10",
+        "name": "KHAZNADAR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,804951",
+            "longitude": "10,1233380999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "067",
+        "bank_id": "10",
+        "name": "AIN-DRAHAM",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "JENDOUBA",
+            "county": "JENDOUBA",
+            "state": "JENDOUBA",
+            "postcode": "8130      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7797497",
+            "longitude": "8,68777155876159"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "068",
+        "bank_id": "10",
+        "name": "SKHIRA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,2980085238497",
+            "longitude": "10,0684627890586"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "069",
+        "bank_id": "10",
+        "name": "SEDJENANE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7010      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,0576344204147",
+            "longitude": "9,2401510477066"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "070",
+        "bank_id": "10",
+        "name": "RAS JEBEL",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7070      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,2147416945686",
+            "longitude": "10,1231411285698"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "071",
+        "bank_id": "10",
+        "name": "TABARKA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "JENDOUBA",
+            "county": "JENDOUBA",
+            "state": "JENDOUBA",
+            "postcode": "8110      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,9482754",
+            "longitude": "8,74261009"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "072",
+        "bank_id": "10",
+        "name": "BIZERTE MEDINA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,2757528",
+            "longitude": "9,87482939999995"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "073",
+        "bank_id": "10",
+        "name": "FERIANA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KASSERINE",
+            "county": "KASSERINE",
+            "state": "KASSERINE",
+            "postcode": "1240      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,9467776",
+            "longitude": "8,56759999999997"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "074",
+        "bank_id": "10",
+        "name": "MATEUR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7030      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,0386202727272",
+            "longitude": "9,66749936342239"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "075",
+        "bank_id": "10",
+        "name": "SAKIET SIDI YOUSSEF",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "LE KEF",
+            "county": "LE KEF",
+            "state": "LE KEF",
+            "postcode": "7100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,2227960345329",
+            "longitude": "8,35238277912139"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "076",
+        "bank_id": "10",
+        "name": "KALAAT SENANE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "LE KEF",
+            "county": "LE KEF",
+            "state": "LE KEF",
+            "postcode": "7130      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,7666591554339",
+            "longitude": "8,34087073802948"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "077",
+        "bank_id": "10",
+        "name": "EL MANAR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2092      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8380703984519",
+            "longitude": "10,1564472913742"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "078",
+        "bank_id": "10",
+        "name": "MONASTIR II",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,7704241610227",
+            "longitude": "10,8221541345119"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "079",
+        "bank_id": "10",
+        "name": "TROCADERO(SOUSSE NR)",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,8345199",
+            "longitude": "10,6358261"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "080",
+        "bank_id": "10",
+        "name": "ENFIDHA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4030      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,1360377994954",
+            "longitude": "10,3823348879814"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "081",
+        "bank_id": "10",
+        "name": "CITE ETTADHAMEN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MANOUBA",
+            "county": "MANOUBA",
+            "state": "MANOUBA",
+            "postcode": "2041      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,834001",
+            "longitude": "10,1174919"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "082",
+        "bank_id": "10",
+        "name": "FOUCHANA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2082      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,6983909",
+            "longitude": "10,169916"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "083",
+        "bank_id": "10",
+        "name": "JELMA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SIDI BOUZID",
+            "county": "SIDI BOUZID",
+            "state": "SIDI BOUZID",
+            "postcode": "9110      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,2717171489873",
+            "longitude": "9,42216575145721"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "084",
+        "bank_id": "10",
+        "name": "BOUSALEM",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "JENDOUBA",
+            "county": "JENDOUBA",
+            "state": "JENDOUBA",
+            "postcode": "8170      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,6090514638994",
+            "longitude": "8,96548211574554"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "085",
+        "bank_id": "10",
+        "name": "HAOUARIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8045      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,0473722532193",
+            "longitude": "11,0129544138908"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "086",
+        "bank_id": "10",
+        "name": "KSIBET EL MEDIOUNI",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5031      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,6866902",
+            "longitude": "10,8435165999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "087",
+        "bank_id": "10",
+        "name": "BEN AROUS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2013      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7561250074082",
+            "longitude": "10,2227997779846"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "088",
+        "bank_id": "10",
+        "name": "SFAX MOULINVILLE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,752953774972",
+            "longitude": "10,7614074647426"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "089",
+        "bank_id": "10",
+        "name": "SOUSSE REPUBLIQUE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,825603",
+            "longitude": "10,6083949999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "100",
+        "bank_id": "10",
+        "name": "AGENCE CENTRALE A. MATHARI ",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1001      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8075629999999",
+            "longitude": "10,1841558999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "101",
+        "bank_id": "10",
+        "name": "KEBILI",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KEBILI",
+            "county": "KEBILI",
+            "state": "KEBILI",
+            "postcode": "4200      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,7052861531494",
+            "longitude": "8,97128105163574"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "102",
+        "bank_id": "10",
+        "name": "JERBA MIDOUN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4116      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8084658321279",
+            "longitude": "10,9912130981683"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "103",
+        "bank_id": "10",
+        "name": "MARETH",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GABES",
+            "county": "GABES",
+            "state": "GABES",
+            "postcode": "6080      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,6184030802319",
+            "longitude": "10,2850940823555"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "104",
+        "bank_id": "10",
+        "name": "SFAX PORT",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3065      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7367502",
+            "longitude": "10,75068"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "105",
+        "bank_id": "10",
+        "name": "NABEUL II",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8062      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,4517279555787",
+            "longitude": "10,7292471081018"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "106",
+        "bank_id": "10",
+        "name": "AKOUDA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4022      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,8657042567072",
+            "longitude": "10,5682843923568"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "107",
+        "bank_id": "10",
+        "name": "LA CHARGUIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ARIANA",
+            "county": "ARIANA",
+            "state": "ARIANA",
+            "postcode": "2035      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8321475318671",
+            "longitude": "10,2116632461547"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "108",
+        "bank_id": "10",
+        "name": "LE BELVEDERE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1002      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8159391",
+            "longitude": "10,1775612999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "109",
+        "bank_id": "10",
+        "name": "BENI KHALLED",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8021      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,6496257",
+            "longitude": "10,5913093"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "110",
+        "bank_id": "10",
+        "name": "AEROPORT TUNIS-CARTH",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ARIANA",
+            "county": "ARIANA",
+            "state": "ARIANA",
+            "postcode": "2035      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8497924",
+            "longitude": "10,212071"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "112",
+        "bank_id": "10",
+        "name": "HAMMAM SOUSSE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4011      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,8592504507892",
+            "longitude": "10,5971181392669"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "113",
+        "bank_id": "10",
+        "name": "HAMMAMET ETTAHRIR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,401281042033",
+            "longitude": "10,6199356913566"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "114",
+        "bank_id": "10",
+        "name": "SFAX JEDIDA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3027      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7380198149697",
+            "longitude": "10,7557654380798"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "115",
+        "bank_id": "10",
+        "name": "GABES-CENTER",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GABES",
+            "county": "GABES",
+            "state": "GABES",
+            "postcode": "6000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8855091",
+            "longitude": "10,1034981"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "116",
+        "bank_id": "10",
+        "name": "AFRICA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1001      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7996044",
+            "longitude": "10,18289387"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "118",
+        "bank_id": "10",
+        "name": "EL MOUANSA  ZARZIS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4144      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,5027819513868",
+            "longitude": "11,0886088013648"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "119",
+        "bank_id": "10",
+        "name": "EL MOUROUJ",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2074      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7329853",
+            "longitude": "10,2071263"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "120",
+        "bank_id": "10",
+        "name": "DOUZ",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KEBILI",
+            "county": "KEBILI",
+            "state": "KEBILI",
+            "postcode": "4260      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,4569198345229",
+            "longitude": "9,02417421340942"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "121",
+        "bank_id": "10",
+        "name": "OUED ELLIL",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MANOUBA",
+            "county": "MANOUBA",
+            "state": "MANOUBA",
+            "postcode": "2010      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8227288217681",
+            "longitude": "10,0740377604961"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "122",
+        "bank_id": "10",
+        "name": "NEFZA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEJA",
+            "county": "BEJA",
+            "state": "BEJA",
+            "postcode": "9010      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,9751296749379",
+            "longitude": "9,07574772834777"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "123",
+        "bank_id": "10",
+        "name": "MSAKEN II",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4070      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,7396384",
+            "longitude": "10,5843843999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "124",
+        "bank_id": "10",
+        "name": "CITE DES SCIENCES",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1004      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8468679818741",
+            "longitude": "10,1913522183895"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "125",
+        "bank_id": "10",
+        "name": "AV. MOHAMED V",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1002      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8171547696017",
+            "longitude": "10,1841840147972"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "126",
+        "bank_id": "10",
+        "name": "EL HRAIRIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2051      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7844602381889",
+            "longitude": "10,1093128323555"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "127",
+        "bank_id": "10",
+        "name": "HAMMAMET SUD",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,3610683943838",
+            "longitude": "10,534464418888"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "128",
+        "bank_id": "10",
+        "name": "MENZEL KAMEL  MOUNAS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5013      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,6231778763394",
+            "longitude": "10,6666249036788"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "129",
+        "bank_id": "10",
+        "name": "LA MARSA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2078      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,866326",
+            "longitude": "10,2907026"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "130",
+        "bank_id": "10",
+        "name": "KERKENNAH",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3070      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7055803",
+            "longitude": "11,2028645999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "131",
+        "bank_id": "10",
+        "name": "LAOUINA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2045      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,849221",
+            "longitude": "10,2604516"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "132",
+        "bank_id": "10",
+        "name": "SIDI ALOUENE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MAHDIA",
+            "county": "MAHDIA",
+            "state": "MAHDIA",
+            "postcode": "5190      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,3766089999999",
+            "longitude": "10,9363389"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "133",
+        "bank_id": "10",
+        "name": "AGENCE SOUSSE INES",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4011      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,867675",
+            "longitude": "10,605353"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "134",
+        "bank_id": "10",
+        "name": "AGENCE MOKTHAR ATTIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "1000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8013208",
+            "longitude": "10,1825202999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "135",
+        "bank_id": "10",
+        "name": "AGENCE LAC II",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "TUNIS",
+            "county": "TUNIS",
+            "state": "TUNIS",
+            "postcode": "2060      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8462830818501",
+            "longitude": "10,2697169780731"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "136",
+        "bank_id": "10",
+        "name": "HAMMAMET MEDINA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8050      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,395698035199",
+            "longitude": "10,613710284233"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "137",
+        "bank_id": "10",
+        "name": "SFAX TYNA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,6838461444628",
+            "longitude": "10,7035374641418"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "138",
+        "bank_id": "10",
+        "name": "SFAX CHIHIA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7944267440572",
+            "longitude": "10,7429954409599"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "139",
+        "bank_id": "10",
+        "name": "EZZAHRA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MANOUBA",
+            "county": "MANOUBA",
+            "state": "MANOUBA",
+            "postcode": "1124      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,7315584782023",
+            "longitude": "10,3122514486312"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "140",
+        "bank_id": "10",
+        "name": "GAFSA II",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GAFSA",
+            "county": "GAFSA",
+            "state": "GAFSA",
+            "postcode": "2100      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,4237653",
+            "longitude": "8,78398776054382"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "141",
+        "bank_id": "10",
+        "name": "SOUKRA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ARIANA",
+            "county": "ARIANA",
+            "state": "ARIANA",
+            "postcode": "2036      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8391716",
+            "longitude": "10,1561361999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "142",
+        "bank_id": "10",
+        "name": "ENNASR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ARIANA",
+            "county": "ARIANA",
+            "state": "ARIANA",
+            "postcode": "2037      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,8614976122364",
+            "longitude": "10,1639091968536"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "143",
+        "bank_id": "10",
+        "name": "SFAX EL AFRAN",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,7626816",
+            "longitude": "10,7284045"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "144",
+        "bank_id": "10",
+        "name": "CHENINI GABES",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GABES",
+            "county": "GABES",
+            "state": "GABES",
+            "postcode": "6041      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8782053764229",
+            "longitude": "10,0642409920692"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "145",
+        "bank_id": "10",
+        "name": "BENI KHEDACHE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4110      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,2452178",
+            "longitude": "10,2011453"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "146",
+        "bank_id": "10",
+        "name": "REDAYEF",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GAFSA",
+            "county": "GAFSA",
+            "state": "GAFSA",
+            "postcode": "2120      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "34,3856827",
+            "longitude": "8,16117029"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "147",
+        "bank_id": "10",
+        "name": "BIZERTE CORNICHE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BIZERTE",
+            "county": "BIZERTE",
+            "state": "BIZERTE",
+            "postcode": "7053      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "37,2717946",
+            "longitude": "9,87696379"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "148",
+        "bank_id": "10",
+        "name": "JERBA ERRIADH",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4180      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "33,8191361",
+            "longitude": "10,85502429"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "149",
+        "bank_id": "10",
+        "name": "MREZGUA ",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "NABEUL",
+            "county": "NABEUL",
+            "state": "NABEUL",
+            "postcode": "8000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,4391445",
+            "longitude": "10,6844284"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "150",
+        "bank_id": "10",
+        "name": "JENDOUBA NORD",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "JENDOUBA",
+            "county": "JENDOUBA",
+            "state": "JENDOUBA",
+            "postcode": "8189      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,5106957",
+            "longitude": "8,75820499"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "151",
+        "bank_id": "10",
+        "name": "TEBOULBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MONASTIR",
+            "county": "MONASTIR",
+            "state": "MONASTIR",
+            "postcode": "5080      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,6310589",
+            "longitude": "10,93404029"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "152",
+        "bank_id": "10",
+        "name": "SOUSSE ERRIADH",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4023      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,8040374",
+            "longitude": "10,60149699"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "153",
+        "bank_id": "10",
+        "name": "RIADH EL ANDALOUS",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "ARIANA",
+            "county": "ARIANA",
+            "state": "ARIANA",
+            "postcode": "2058      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "154",
+        "bank_id": "10",
+        "name": "AGENCE KALAA  EL KEBIRA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SOUSSE",
+            "county": "SOUSSE",
+            "state": "SOUSSE",
+            "postcode": "4060      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "155",
+        "bank_id": "10",
+        "name": "SAKIET EDDAIER",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3011      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "156",
+        "bank_id": "10",
+        "name": "SBEITLA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "KASSERINE",
+            "county": "KASSERINE",
+            "state": "KASSERINE",
+            "postcode": "1250      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "35,2293281",
+            "longitude": "9,1262461"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "157",
+        "bank_id": "10",
+        "name": "TESTOUR",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEJA",
+            "county": "BEJA",
+            "state": "BEJA",
+            "postcode": "9060      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "36,5499",
+            "longitude": "9,44226639999999"
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "158",
+        "bank_id": "10",
+        "name": "MANOUBA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MANOUBA",
+            "county": "MANOUBA",
+            "state": "MANOUBA",
+            "postcode": "2010      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "159",
+        "bank_id": "10",
+        "name": "MGHIRA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "BEN AROUS",
+            "county": "BEN AROUS",
+            "state": "BEN AROUS",
+            "postcode": "2082      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "160",
+        "bank_id": "10",
+        "name": "JERBA HOUMET SOUK 2",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "MEDENINE",
+            "county": "MEDENINE",
+            "state": "MEDENINE",
+            "postcode": "4180      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "161",
+        "bank_id": "10",
+        "name": "SFAX POUDRIERE",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "SFAX",
+            "county": "SFAX",
+            "state": "SFAX",
+            "postcode": "3099      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    },
+    {
+        "id": "162",
+        "bank_id": "10",
+        "name": "EL HAMMA",
+        "adressBranch": {
+            "line_1": "",
+            "line_2": "",
+            "line_3": "",
+            "city": "GABES",
+            "county": "GABES",
+            "state": "GABES",
+            "postcode": "6000      ",
+            "country_code": null
+        },
+        "locationBranch": {
+            "latitude": "",
+            "longitude": ""
+        },
+        "branchrouting": {
+            "scheme": "OBP",
+            "address": ""
+        },
+        "is_accessible": "true",
+        "accessibleFeatures": "wheelchair, atm usuable by the visually impaired",
+        "branch_type": "Full service store",
+        "more_info": "short walk to the lake from here",
+        "phone_number": ""
+    }
+]
+}

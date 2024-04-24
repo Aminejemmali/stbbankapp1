@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367886576261",
+    "project_id": "stbbankapplication1",
+    "storage_bucket": "stbbankapplication1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367886576261:android:52d8c5b1fb08475b6317ec",
+        "android_client_info": {
+          "package_name": "com.example.stbbankapplication1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhF_6_Pkmdjk9BdcNcB1EESJiYo5tPEgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
