@@ -4,7 +4,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:stbbankapplication1/screens/admin.dart';
-import 'package:stbbankapplication1/screens/login.dart';
+import 'package:stbbankapplication1/screens/authentication/login.dart';
 import 'package:stbbankapplication1/screens/splash-screen.dart';
 import 'package:stbbankapplication1/screens/user.dart';
 

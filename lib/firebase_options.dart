@@ -23,10 +23,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for macos - '
@@ -50,19 +47,29 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDhRi0MwiyLt7diDvIpLbM3NRbnP62yJeY',
-    appId: '1:367886576261:web:2989d39767ffb8016317ec',
-    messagingSenderId: '367886576261',
-    projectId: 'stbbankapplication1',
-    authDomain: 'stbbankapplication1.firebaseapp.com',
-    storageBucket: 'stbbankapplication1.appspot.com',
+    apiKey: 'AIzaSyAiVnrQeisrg6hZJ8jmaa5bR9mxMbZX7N0',
+    appId: '1:698762445358:web:c5ad62bb7419cc33ffd5bf',
+    messagingSenderId: '698762445358',
+    projectId: 'stbproject-a9f40',
+    authDomain: 'stbproject-a9f40.firebaseapp.com',
+    storageBucket: 'stbproject-a9f40.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBhF_6_Pkmdjk9BdcNcB1EESJiYo5tPEgw',
-    appId: '1:367886576261:android:52d8c5b1fb08475b6317ec',
-    messagingSenderId: '367886576261',
-    projectId: 'stbbankapplication1',
-    storageBucket: 'stbbankapplication1.appspot.com',
+    apiKey: 'AIzaSyCAd89IceHB5f4A5fVvO44QoNLNXCK-EV0',
+    appId: '1:698762445358:android:bd8dea9f1b1ece7bffd5bf',
+    messagingSenderId: '698762445358',
+    projectId: 'stbproject-a9f40',
+    storageBucket: 'stbproject-a9f40.appspot.com',
   );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAh4C3FhDLZmYnneFN3HFD4SGnpG5TpaK4',
+    appId: '1:698762445358:ios:8a08c3b6a814ce3bffd5bf',
+    messagingSenderId: '698762445358',
+    projectId: 'stbproject-a9f40',
+    storageBucket: 'stbproject-a9f40.appspot.com',
+    iosBundleId: 'com.example.stbbankapplication1',
+  );
+
 }

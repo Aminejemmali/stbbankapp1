@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart'; // Importez la bibliothèque Google Fonts
-import 'package:stbbankapplication1/screens/login.dart';
+import 'package:stbbankapplication1/screens/authentication/login.dart';
 
 class SuccessScreen extends StatefulWidget {
   @override
