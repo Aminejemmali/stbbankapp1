@@ -6,13 +6,13 @@ import 'package:flutter/material.dart';
 import 'package:stbbankapplication1/screens/map_page.dart';
 import 'package:stbbankapplication1/screens/admin.dart';
 import 'package:stbbankapplication1/screens/signup.dart';
-import 'package:stbbankapplication1/screens/super_admin.dart';
+import 'package:stbbankapplication1/screens/liste-agents.dart';
 import 'package:stbbankapplication1/screens/user.dart';
 
 class Login extends StatefulWidget {
   const Login({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   State<Login> createState() => _LoginState();
@@ -21,10 +21,10 @@ class Login extends StatefulWidget {
 class _LoginState extends State<Login> {
   final GlobalKey<FormState> _emailFormKey = GlobalKey<FormState>();
   final GlobalKey<FormState> _passwordFormKey = GlobalKey<FormState>();
-  TextEditingController _emailController = TextEditingController();
-  TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _emailController = TextEditingController();
+  final TextEditingController _passwordController = TextEditingController();
   String? _errorMessage;
-
+  bool loading = false;
   void navigateBasedOnRole(String userRole, BuildContext context) {
     if (userRole == 'admin') {
       Navigator.pushReplacement(
@@ -35,21 +35,21 @@ class _LoginState extends State<Login> {
     } else if (userRole == 'superAdmin') {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => super_admin()),
+        MaterialPageRoute(builder: (context) => SuperAdmin()),
       );
     } else if (userRole == 'user') {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => UserScreen()),
       );
-    }else
-    {
+    } else {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => Login()),
       );
     }
   }
+
 //chadwadridi6100@gmail.com
 //"chadwa123"
   @override
@@ -278,7 +278,8 @@ class _LoginState extends State<Login> {
       child: ElevatedButton(
         onPressed: signIn,
         style: ElevatedButton.styleFrom(
-          foregroundColor: Color.fromARGB(49, 33, 182, 202), backgroundColor: Color.fromARGB(6, 18, 60, 177),
+          foregroundColor: Color.fromARGB(49, 33, 182, 202),
+          backgroundColor: Color.fromARGB(6, 18, 60, 177),
           padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 16),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10),
@@ -304,36 +305,31 @@ class _LoginState extends State<Login> {
           password: _passwordController.text.trim(),
         );
 
-        try{
+        try {
           // Fetch user data from Firestore
-        DocumentSnapshot userSnapshot = await FirebaseFirestore.instance
-            .collection('users')
-            .doc(userCredential.user!.uid)
-            .get();
+          DocumentSnapshot userSnapshot = await FirebaseFirestore.instance
+              .collection('users')
+              .doc(userCredential.user!.uid)
+              .get();
 
-        if (userSnapshot.exists) {
-          
+          if (userSnapshot.exists) {
             final userData = userSnapshot.data() as Map<String, dynamic>;
-          
-          final userRole = userData['role'] as String?;
 
-          if (userRole != null) {
-            navigateBasedOnRole(userRole, context);
-          } else {
-            setState(() {
-              _errorMessage = "Error: User role not available";
-            });
-            
+            final userRole = userData['role'] as String?;
+
+            if (userRole != null) {
+              navigateBasedOnRole(userRole, context);
+            } else {
+              setState(() {
+                _errorMessage = "Error: User role not available";
+              });
+            }
           }
-          
-        }
-        }catch(err){
+        } catch (err) {
           setState(() {
-          _errorMessage =
-              "User Account Is deleted !";
-        });
+            _errorMessage = "User Account Is deleted !";
+          });
         }
-
       } catch (e) {
         setState(() {
           _errorMessage =

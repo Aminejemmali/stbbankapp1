@@ -4,19 +4,21 @@ import 'package:flutter/material.dart';
 import 'package:mailer/mailer.dart';
 
 import 'package:mailer/smtp_server.dart';
-import 'package:stbbankapplication1/screens/login.dart';
+import 'package:stbbankapplication1/screens/dash_super.dart';
+
 import 'package:stbbankapplication1/screens/success_screen.dart';
 
-class Signup extends StatefulWidget {
-  const Signup({Key? key}) : super(key: key);
+class new_agent extends StatefulWidget {
+  const new_agent({Key? key}) : super(key: key);
 
   @override
-  State<Signup> createState() => _SignupState();
+  State<new_agent> createState() => _new_agentState();
 }
 
-class _SignupState extends State<Signup> {
+class _new_agentState extends State<new_agent> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
+  final TextEditingController _roleController = TextEditingController();
   final TextEditingController _nomController = TextEditingController();
   final TextEditingController _prenomController = TextEditingController();
 
@@ -29,10 +31,11 @@ class _SignupState extends State<Signup> {
       );
 
       String userId = userCredential.user!.uid;
-      String userRole = 'user'; // Définition du rôle ici
+
+      String userRole = 'admin'; // Récupérer le rôle à partir du formulaire
 
       await FirebaseFirestore.instance.collection('users').doc(userId).set({
-        'role': userRole,
+        'role': userRole, // Utiliser le rôle fourni dans le formulaire
         'nom': _nomController.text.trim(),
         'prenom': _prenomController.text.trim(),
         'email': _emailController.text.trim(),
@@ -90,6 +93,7 @@ class _SignupState extends State<Signup> {
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();
+    _roleController.dispose();
     _nomController.dispose();
     _prenomController.dispose();
     super.dispose();
@@ -106,7 +110,7 @@ class _SignupState extends State<Signup> {
           onPressed: () {
             Navigator.pushReplacement(
               context,
-              MaterialPageRoute(builder: (context) => Login()),
+              MaterialPageRoute(builder: (context) => super_dash()),
             );
           },
         ),
@@ -157,23 +161,26 @@ class _SignupState extends State<Signup> {
                 /*ElevatedButton(
                   onPressed: _createAccount,
                   style: ElevatedButton.styleFrom(
-                    primary: Color.fromARGB(6, 18, 60, 177),
-                    onPrimary: Color.fromARGB(49, 33, 182, 202),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 40, vertical: 16),
+                    primary: Colors.blue,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
+                    padding: const EdgeInsets.symmetric(vertical: 16),
                   ),
                   child: Text(
                     'Créer',
                     style: TextStyle(
                       fontSize: 18,
-                      color: Color.fromARGB(255, 253, 250, 250),
+                      fontFamily: 'serif',
+                      fontWeight:
+                          FontWeight.bold, // Example: Add bold font weight
+                      color: const Color.fromARGB(255, 229, 235,
+                          240), // Example: Set text color to blue
+                      // You can add more styles based on your requirements
                     ),
                   ),
-                ),
-                const SizedBox(height: 40),*/
+                ),*/
+                const SizedBox(height: 40),
               ],
             ),
           ),

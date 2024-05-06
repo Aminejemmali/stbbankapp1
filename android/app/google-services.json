@@ -1,21 +1,40 @@
 {
   "project_info": {
-    "project_number": "367886576261",
-    "project_id": "stbbankapplication1",
-    "storage_bucket": "stbbankapplication1.appspot.com"
+    "project_number": "698762445358",
+    "project_id": "stbproject-a9f40",
+    "storage_bucket": "stbproject-a9f40.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:367886576261:android:52d8c5b1fb08475b6317ec",
+        "mobilesdk_app_id": "1:698762445358:android:bd8dea9f1b1ece7bffd5bf",
         "android_client_info": {
-          "package_name": "com.example.stbbankapplication1"
+          "package_name": "com.example.stbbankapp1"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBhF_6_Pkmdjk9BdcNcB1EESJiYo5tPEgw"
+          "current_key": "AIzaSyCAd89IceHB5f4A5fVvO44QoNLNXCK-EV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698762445358:android:1cf79d82aa365fa4ffd5bf",
+        "android_client_info": {
+          "package_name": "com.example.stbproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAd89IceHB5f4A5fVvO44QoNLNXCK-EV0"
         }
       ],
       "services": {
