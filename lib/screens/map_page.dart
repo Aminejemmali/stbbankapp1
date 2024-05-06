@@ -46,8 +46,8 @@ class _MapPageState extends State<MapPage> {
       center:
           LatLng(widget.locationInfo.latitude, widget.locationInfo.longitude),
       radius: 30 * 1000,
-      fillColor: Colors.blue.withOpacity(0.3), // Blue color with opacity
-      strokeWidth: 0, // No border
+      fillColor: Colors.blue.withOpacity(0.3), 
+      strokeWidth: 0,
     ));
   }
 
@@ -84,7 +84,7 @@ class _MapPageState extends State<MapPage> {
                         child: ListTile(
                           title: Text(e.name),
                           subtitle: Text(e.id),
-                          // Add more info fields as needed
+                      
                         ),
                       );
                     });
