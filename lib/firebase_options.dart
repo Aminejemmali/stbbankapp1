@@ -52,6 +52,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '698762445358',
     projectId: 'stbproject-a9f40',
     authDomain: 'stbproject-a9f40.firebaseapp.com',
+    databaseURL: 'https://stbproject-a9f40-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'stbproject-a9f40.appspot.com',
   );
 
@@ -60,6 +61,7 @@ class DefaultFirebaseOptions {
     appId: '1:698762445358:android:bd8dea9f1b1ece7bffd5bf',
     messagingSenderId: '698762445358',
     projectId: 'stbproject-a9f40',
+    databaseURL: 'https://stbproject-a9f40-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'stbproject-a9f40.appspot.com',
   );
 
@@ -68,6 +70,7 @@ class DefaultFirebaseOptions {
     appId: '1:698762445358:ios:8a08c3b6a814ce3bffd5bf',
     messagingSenderId: '698762445358',
     projectId: 'stbproject-a9f40',
+    databaseURL: 'https://stbproject-a9f40-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'stbproject-a9f40.appspot.com',
     iosBundleId: 'com.example.stbbankapplication1',
   );

@@ -3,6 +3,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:stbbankapplication1/screens/authentication/widget/login_btn.dart';
+import 'package:stbbankapplication1/screens/dash_admin.dart';
 import 'package:stbbankapplication1/screens/mapPage/map_page.dart';
 import 'package:stbbankapplication1/screens/admin.dart';
 import 'package:stbbankapplication1/screens/authentication/signup.dart';
@@ -29,8 +31,7 @@ class _LoginState extends State<Login> {
     if (userRole == 'admin') {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(
-            builder: (context) => admin()), // Adjust to your admin screen
+        MaterialPageRoute(builder: (context) => AdminDash()),
       );
     } else if (userRole == 'superAdmin') {
       Navigator.pushReplacement(
@@ -113,7 +114,8 @@ class _LoginState extends State<Login> {
           SizedBox(height: 10),
           _buildPasswordTextField(),
           SizedBox(height: 10),
-          _buildSignInButton(),
+          //! login
+          SignInButton(onClick: signIn),
           SizedBox(height: 10),
           _buildErrorMessage(),
         ],
@@ -259,41 +261,6 @@ class _LoginState extends State<Login> {
       return 'Le mot de passe doit avoir au moins 6 caractères.';
     }
     return null;
-  }
-
-  Widget _buildSignInButton() {
-    return Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Colors.white,
-            Colors.lightBlue,
-            Color.fromARGB(255, 8, 57, 143),
-          ],
-          begin: Alignment.topRight,
-          end: Alignment.bottomLeft,
-        ),
-        borderRadius: BorderRadius.circular(10),
-      ),
-      child: ElevatedButton(
-        onPressed: signIn,
-        style: ElevatedButton.styleFrom(
-          foregroundColor: Color.fromARGB(49, 33, 182, 202),
-          backgroundColor: Color.fromARGB(6, 18, 60, 177),
-          padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 16),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(10),
-          ),
-        ),
-        child: const Text(
-          "Connexion",
-          style: TextStyle(
-            fontSize: 18,
-            color: Color.fromARGB(255, 253, 250, 250),
-          ),
-        ),
-      ),
-    );
   }
 
   Future<void> signIn() async {
