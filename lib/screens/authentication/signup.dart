@@ -1,14 +1,12 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:mailer/mailer.dart';
-
-import 'package:mailer/smtp_server.dart';
-import 'package:stbbankapplication1/screens/login.dart';
+import 'package:stbbankapplication1/screens/authentication/login.dart';
 import 'package:stbbankapplication1/screens/success_screen.dart';
+import 'package:stbbankapplication1/services/mail/send_email.dart';
 
 class Signup extends StatefulWidget {
-  const Signup({Key? key}) : super(key: key);
+  const Signup({super.key});
 
   @override
   State<Signup> createState() => _SignupState();
@@ -29,7 +27,7 @@ class _SignupState extends State<Signup> {
       );
 
       String userId = userCredential.user!.uid;
-      String userRole = 'user'; // Définition du rôle ici
+      String userRole = 'user';
 
       await FirebaseFirestore.instance.collection('users').doc(userId).set({
         'role': userRole,
@@ -40,7 +38,7 @@ class _SignupState extends State<Signup> {
       });
 
       // Envoi de l'e-mail avec les informations de l'utilisateur
-      await _sendWelcomeEmail(
+      await sendWelcomeEmail(
         _emailController.text.trim(),
         _passwordController.text.trim(),
         _nomController.text.trim(),
@@ -55,29 +53,7 @@ class _SignupState extends State<Signup> {
     }
   }
 
-  Future<void> _sendWelcomeEmail(
-      String email, String password, String nom, String prenom) async {
-    final smtpServer = gmail('houilinour@gmail.com', 'jhcb srfj lqva gmaq');
 
-    final message = Message()
-      ..from = Address('STB-email@gmail.com', 'RapidBankBooking')
-      ..recipients.add(email)
-      ..subject = 'Bienvenue sur RapidBankBooking'
-      ..text = 'Bienvenue sur RapidBankBooking!\n\n'
-          'Nom: $nom\n'
-          'Prénom: $prenom\n'
-          'Votre adresse e-mail: $email\n'
-          'Votre mot de passe: $password\n\n'
-          'Merci de vous être inscrit sur RapidBankBooking.';
-
-    try {
-      final sendReport = await send(message, smtpServer);
-      print('Message sent: ' + sendReport.toString());
-    } catch (e) {
-      print('Error sending welcome email: $e');
-      // Gérer les erreurs d'envoi d'e-mail ici
-    }
-  }
 
   void _navigateToSuccessScreen() {
     Navigator.pushReplacement(
@@ -154,26 +130,7 @@ class _SignupState extends State<Signup> {
                 const SizedBox(height: 12),
                 _buildSignInButton(),
                 const SizedBox(height: 20),
-                /*ElevatedButton(
-                  onPressed: _createAccount,
-                  style: ElevatedButton.styleFrom(
-                    primary: Color.fromARGB(6, 18, 60, 177),
-                    onPrimary: Color.fromARGB(49, 33, 182, 202),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 40, vertical: 16),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10),
-                    ),
-                  ),
-                  child: Text(
-                    'Créer',
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Color.fromARGB(255, 253, 250, 250),
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 40),*/
+        
               ],
             ),
           ),
@@ -185,7 +142,7 @@ class _SignupState extends State<Signup> {
   Widget _buildSignInButton() {
     return Container(
       decoration: BoxDecoration(
-        gradient: LinearGradient(
+        gradient:const LinearGradient(
           colors: [
             Colors.white,
             Colors.lightBlue,

@@ -1,5 +1,3 @@
-import 'package:stbbankapplication1/utils/distance.dart';
-
 class Agence {
   String id;
   String bank_id;

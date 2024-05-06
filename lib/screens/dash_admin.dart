@@ -2,7 +2,7 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:badges/badges.dart' as BadgesPrefix;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:stbbankapplication1/screens/login.dart';
+import 'package:stbbankapplication1/screens/authentication/login.dart';
 import 'package:stbbankapplication1/screens/rendez-vous.dart';
 
 class NotificationData {

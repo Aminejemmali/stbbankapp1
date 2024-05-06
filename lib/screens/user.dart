@@ -2,7 +2,7 @@ import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:badges/badges.dart' as BadgesPrefix;
 import 'package:flutter/material.dart';
 import 'package:loading_overlay/loading_overlay.dart';
-import 'package:stbbankapplication1/screens/map_page.dart';
+import 'package:stbbankapplication1/screens/mapPage/map_page.dart';
 import 'package:stbbankapplication1/services/location_provider.dart';
 
 class UserScreen extends StatefulWidget {

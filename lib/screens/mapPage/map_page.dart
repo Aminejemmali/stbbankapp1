@@ -23,7 +23,8 @@ class _MapPageState extends State<MapPage> {
   List<Agence> agences = [];
   Set<Marker> markers = {};
   Set<Circle> circles = {};
-  Future<void> readJson(double distance) async {
+  double distance = 30;
+  Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/agence.json');
     final data = await json.decode(response);
     setState(() {
@@ -46,7 +47,7 @@ class _MapPageState extends State<MapPage> {
       center:
           LatLng(widget.locationInfo.latitude, widget.locationInfo.longitude),
       radius: 30 * 1000,
-      fillColor: Colors.blue.withOpacity(0.3), 
+      fillColor: Colors.blue.withOpacity(0.3),
       strokeWidth: 0,
     ));
   }
@@ -54,7 +55,7 @@ class _MapPageState extends State<MapPage> {
   @override
   void initState() {
     super.initState();
-    readJson(30);
+    readJson();
 
     setCustomMarker();
     calculateCircle();
@@ -73,19 +74,29 @@ class _MapPageState extends State<MapPage> {
     markers = agences
         .map((e) => Marker(
               markerId: MarkerId(e.id),
-              infoWindow: InfoWindow(
-                  title: /*(polylines.isEmpty)?"List is Empty":*/
-                      "${e.name}"),
+              infoWindow: InfoWindow(title: e.name),
               onTap: () {
                 showModalBottomSheet(
                     context: context,
                     builder: (BuildContext context) {
-                      return Card(
-                        child: ListTile(
-                          title: Text(e.name),
-                          subtitle: Text(e.id),
-                      
-                        ),
+                      // ! Temps attende
+                      // ! rendé vous 9ablo
+                      return Column(
+                        children: [
+                          ElevatedButton(
+                              onPressed: () {}, child: Text("Rendez vous")),
+                          Card(
+                            child: ListTile(
+                              leading: Icon(Icons.balance),
+                              title: Text(e.name),
+                              subtitle: Text(e.id),
+                              trailing: ElevatedButton(
+                                onPressed: () {},
+                                child: const Text('View route'),
+                              ),
+                            ),
+                          ),
+                        ],
                       );
                     });
                 // Navigator.push(
@@ -103,18 +114,10 @@ class _MapPageState extends State<MapPage> {
         .toSet();
 
     markers.add(Marker(
-      markerId: MarkerId("sourceLocation"),
-
-      position:
-          LatLng(widget.locationInfo.latitude, widget.locationInfo.longitude),
-      // icon: BitmapDescriptor.defaultMarkerWithHue(90)
-    ));
-    /*markers.add(Marker(
-        markerId: MarkerId("source"),
-        position: LatLng(36.819876, 10.181961),
-        icon: sourceIcon
-    ));*/
-
+        markerId: MarkerId("sourceLocation"),
+        position:
+            LatLng(widget.locationInfo.latitude, widget.locationInfo.longitude),
+        icon: BitmapDescriptor.defaultMarkerWithHue(90)));
     return markers;
   }
 
@@ -122,28 +125,49 @@ class _MapPageState extends State<MapPage> {
     mapController = controller;
   }
 
-  final LatLng center = const LatLng(36.801304, 10.178042);
-
   @override
   Widget build(BuildContext context) {
     LocationInfo currentLocation = widget.locationInfo;
     return MaterialApp(
         home: Scaffold(
-      body: GoogleMap(
-        markers: getMarkers(),
-        onMapCreated: _onMapCreated,
-        initialCameraPosition: CameraPosition(
-          target: LatLng(currentLocation.latitude, currentLocation.longitude),
-          zoom: 14.5,
-        ),
-        circles: circles,
-        //polylines: Set<Polyline>.of(polylines.values),
-        myLocationEnabled: true,
-        //tiltGesturesEnabled: true,
-        compassEnabled: true,
-        scrollGesturesEnabled: true,
-        zoomGesturesEnabled: true,
-        //cameraTargetBounds: CameraTargetBounds.unbounded,
+      body: Column(
+        children: [
+          Container(
+            height: 400,
+            child: GoogleMap(
+              markers: getMarkers(),
+              onMapCreated: _onMapCreated,
+              initialCameraPosition: CameraPosition(
+                target:
+                    LatLng(currentLocation.latitude, currentLocation.longitude),
+                zoom: 14.5,
+              ),
+              circles: circles,
+              //polylines: Set<Polyline>.of(polylines.values),
+              myLocationEnabled: true,
+              //tiltGesturesEnabled: true,
+              compassEnabled: true,
+              scrollGesturesEnabled: true,
+              zoomGesturesEnabled: true,
+              //cameraTargetBounds: CameraTargetBounds.unbounded,
+            ),
+          ),
+          Slider(
+            value: distance,
+            min: 10,
+            max: 100,
+            divisions: 9,
+            label: 'Distance: $distance km',
+            onChanged: (value) {
+              setState(() {
+                distance = value;
+                circles.clear(); // Clear existing circles
+                calculateCircle(); // Recalculate circles with new distance
+                readJson(); // Reload agences based on new distance
+              });
+            },
+          ),
+        ],
       ),
     ));
   }

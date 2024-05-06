@@ -3,9 +3,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:stbbankapplication1/screens/map_page.dart';
+import 'package:stbbankapplication1/screens/mapPage/map_page.dart';
 import 'package:stbbankapplication1/screens/admin.dart';
-import 'package:stbbankapplication1/screens/signup.dart';
+import 'package:stbbankapplication1/screens/authentication/signup.dart';
 import 'package:stbbankapplication1/screens/liste-agents.dart';
 import 'package:stbbankapplication1/screens/user.dart';
 
