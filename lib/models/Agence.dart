@@ -23,13 +23,12 @@ class Agence {
           : 0;
       final locationBranch = LocationBranch(
           latitude: latitude.toDouble(), longitude: longitude.toDouble());
-    
+
       return Agence(
         id: json['id'] ?? '',
         bank_id: json['bank_id'] ?? '',
         name: json['name'] ?? '',
         locationBranch: locationBranch,
-        
       );
     } catch (e) {
       print('Error parsing latitude or longitude: $e');

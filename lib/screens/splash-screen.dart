@@ -43,6 +43,17 @@ class _SplashScreenState extends State<SplashScreen>
 
   @override
   Widget build(BuildContext context) {
+    return const SplashView();
+  }
+}
+
+class SplashView extends StatelessWidget {
+  const SplashView({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white, // Set the background color to white
       body: Container(
@@ -50,17 +61,16 @@ class _SplashScreenState extends State<SplashScreen>
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            //FadeTransition(
-            //opacity: _imageOpacity,
+            
             Image.asset(
               'img/logo_stb.png',
               height: 100,
             ),
             // ),
-            SizedBox(height: 20),
+          const  SizedBox(height: 20),
             // FadeTransition(
             //opacity: _controller,
-            Text(
+        const    Text(
               'RapidBankBooking',
               style: TextStyle(
                 fontStyle: FontStyle.italic,

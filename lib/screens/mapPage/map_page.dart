@@ -1,10 +1,14 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
+import 'package:stbbankapplication1/db/reservation_db.dart';
 import 'package:stbbankapplication1/models/Agence.dart';
+import 'package:stbbankapplication1/models/reservation.dart';
 import 'package:stbbankapplication1/services/location_provider.dart';
 import 'package:stbbankapplication1/utils/distance.dart';
 
@@ -46,7 +50,7 @@ class _MapPageState extends State<MapPage> {
       circleId: CircleId('circle'),
       center:
           LatLng(widget.locationInfo.latitude, widget.locationInfo.longitude),
-      radius: 30 * 1000,
+      radius: distance * 1000,
       fillColor: Colors.blue.withOpacity(0.3),
       strokeWidth: 0,
     ));
@@ -84,7 +88,24 @@ class _MapPageState extends State<MapPage> {
                       return Column(
                         children: [
                           ElevatedButton(
-                              onPressed: () {}, child: Text("Rendez vous")),
+                              onPressed: () async {
+                                await ReservationDatabase().makeReservation(
+                                    Reservation(
+                                        id: FirebaseAuth
+                                            .instance.currentUser!.uid,
+                                        madeBy: FirebaseAuth
+                                            .instance.currentUser!.uid,
+                                        madeAt: Timestamp.now()
+                                            .millisecondsSinceEpoch
+                                            .toString(),
+                                        reviewed: false,
+                                        operationId: "account",
+                                        bankId: e.bank_id));
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                    const SnackBar(
+                                        content: Text("Render vos faite")));
+                              },
+                              child: Text("Rendez vous")),
                           Card(
                             child: ListTile(
                               leading: Icon(Icons.balance),
@@ -128,12 +149,13 @@ class _MapPageState extends State<MapPage> {
   @override
   Widget build(BuildContext context) {
     LocationInfo currentLocation = widget.locationInfo;
+    double h = MediaQuery.of(context).size.height;
     return MaterialApp(
         home: Scaffold(
       body: Column(
         children: [
           Container(
-            height: 400,
+            height: h * 0.9,
             child: GoogleMap(
               markers: getMarkers(),
               onMapCreated: _onMapCreated,
@@ -161,9 +183,9 @@ class _MapPageState extends State<MapPage> {
             onChanged: (value) {
               setState(() {
                 distance = value;
-                circles.clear(); // Clear existing circles
-                calculateCircle(); // Recalculate circles with new distance
-                readJson(); // Reload agences based on new distance
+                circles.clear();
+                calculateCircle();
+                readJson();
               });
             },
           ),
