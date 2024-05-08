@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
+import 'package:stbbankapplication1/models/Agence.dart';
 import 'package:stbbankapplication1/models/operation_type.dart';
 import 'package:stbbankapplication1/models/utilisateur.dart';
 import 'package:stbbankapplication1/providers/agence_list.dart';
@@ -57,24 +58,32 @@ class _RendezVousState extends State<RendezVous> {
                   (element) => element.id == reservation['operationId'],
                   orElse: () =>
                       OperationType(id: "defaultId", name: "defaultName"));
-
+              final bank = agenceProvider.firstWhere(
+                  (element) => element.id == reservation['bankId'].toString(),
+                  orElse: () => Agence(
+                        id: "id",
+                        bank_id: "bank_id",
+                        name: "name",
+                        locationBranch:
+                            LocationBranch(latitude: 0, longitude: 0),
+                      ));
               return GestureDetector(
                 onLongPress: () {
                   showDialog(
                     context: context,
                     builder: (BuildContext context) {
                       return AlertDialog(
-                        title: Text("Confirm Deletion"),
-                        content: Text("Are you sure you want to delete?"),
+                        title: const Text("Confirm Deletion"),
+                        content: const Text("Are you sure you want to delete?"),
                         actions: <Widget>[
                           TextButton(
-                            child: Text("Cancel"),
+                            child: const Text("Cancel"),
                             onPressed: () {
                               Navigator.of(context).pop();
                             },
                           ),
                           TextButton(
-                            child: Text("Delete"),
+                            child: const Text("Delete"),
                             onPressed: () {
                               final databaseRef = FirebaseDatabase.instance
                                   .ref()
@@ -99,15 +108,20 @@ class _RendezVousState extends State<RendezVous> {
                 child: ListTile(
                   leading: const Icon(Icons.calendar_month),
                   title: Text(
-                    operation.name,
+                    "${bank.name}: ${operation.name}",
                     style: const TextStyle(fontWeight: FontWeight.bold),
                   ),
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(DateFormat('MMM-dd HH:mm:ss').format(
-                          DateTime.fromMillisecondsSinceEpoch(
-                              int.parse(reservation['deadlineTime'])))),
+                      Text(
+                        "Heure Limit:${DateFormat('HH:mm').format(DateTime.fromMillisecondsSinceEpoch(int.parse(reservation['deadlineTime'])))}",
+                        style: TextStyle(
+                            color: DateTime.now().millisecondsSinceEpoch <
+                                    int.parse(reservation['deadlineTime'])
+                                ? Colors.green
+                                : Colors.red),
+                      ),
                       Text("${user.nom} ${user.prenom}")
                     ],
                   ),
