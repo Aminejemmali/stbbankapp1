@@ -69,41 +69,45 @@ class _RendezVousState extends State<RendezVous> {
                       ));
               return GestureDetector(
                 onLongPress: () {
-                  showDialog(
-                    context: context,
-                    builder: (BuildContext context) {
-                      return AlertDialog(
-                        title: const Text("Confirm Deletion"),
-                        content: const Text("Are you sure you want to delete?"),
-                        actions: <Widget>[
-                          TextButton(
-                            child: const Text("Cancel"),
-                            onPressed: () {
-                              Navigator.of(context).pop();
-                            },
-                          ),
-                          TextButton(
-                            child: const Text("Delete"),
-                            onPressed: () {
-                              final databaseRef = FirebaseDatabase.instance
-                                  .ref()
-                                  .child(
-                                      "reservations/${DateFormat('yyyy-MM-dd').format(DateTime.fromMillisecondsSinceEpoch(int.parse(reservation['madeAt'].toString())))}/${reservation['madeBy'].toString()}/");
+                  if (DateTime.now().millisecondsSinceEpoch >
+                      int.parse(reservation['deadlineTime'])) {
+                    showDialog(
+                      context: context,
+                      builder: (BuildContext context) {
+                        return AlertDialog(
+                          title: const Text("Confirm Deletion"),
+                          content:
+                              const Text("Are you sure you want to delete?"),
+                          actions: <Widget>[
+                            TextButton(
+                              child: const Text("Cancel"),
+                              onPressed: () {
+                                Navigator.of(context).pop();
+                              },
+                            ),
+                            TextButton(
+                              child: const Text("Delete"),
+                              onPressed: () {
+                                final databaseRef = FirebaseDatabase.instance
+                                    .ref()
+                                    .child(
+                                        "reservations/${DateFormat('yyyy-MM-dd').format(DateTime.fromMillisecondsSinceEpoch(int.parse(reservation['madeAt'].toString())))}/${reservation['madeBy'].toString()}/");
 
-                              databaseRef.remove().then((_) {
-                                print("Delete succeeded");
-                                Navigator.of(context).pop();
-                                setState(() {});
-                              }).catchError((error) {
-                                print("Delete failed: $error");
-                                Navigator.of(context).pop();
-                              });
-                            },
-                          ),
-                        ],
-                      );
-                    },
-                  );
+                                databaseRef.remove().then((_) {
+                                  print("Delete succeeded");
+                                  Navigator.of(context).pop();
+                                  setState(() {});
+                                }).catchError((error) {
+                                  print("Delete failed: $error");
+                                  Navigator.of(context).pop();
+                                });
+                              },
+                            ),
+                          ],
+                        );
+                      },
+                    );
+                  }
                 },
                 child: ListTile(
                   leading: const Icon(Icons.calendar_month),
