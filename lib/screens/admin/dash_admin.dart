@@ -1,12 +1,8 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:badges/badges.dart' as BadgesPrefix;
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:stbbankapplication1/providers/current_user.dart';
-
-import 'package:stbbankapplication1/screens/rendez-vous.dart';
-
 import 'package:stbbankapplication1/screens/rendez-vous.dart';
 import 'package:stbbankapplication1/services/auth/auth.dart';
 
@@ -19,6 +15,16 @@ class AdminDash extends StatefulWidget {
 
 class _AdminDashState extends State<AdminDash> {
   int _currentIndex = 0;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    AwesomeNotifications().isNotificationAllowed().then((isAllowed) {
+      if (!isAllowed) {
+        AwesomeNotifications().requestPermissionToSendNotifications();
+      }
+    });
+  }
 
   final List<Widget> _screens = [RendezVous(), Placeholder()];
   @override
@@ -28,7 +34,7 @@ class _AdminDashState extends State<AdminDash> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         centerTitle: true,
-        title: Text(currentUser.currentuser!.nom),
+        title: Text("Salut ${currentUser.currentuser!.nom}"),
         leading: GestureDetector(
             onTap: () async => await UserAuth().signOut(context),
             child: Icon(Icons.logout)),

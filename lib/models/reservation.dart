@@ -6,7 +6,8 @@ class Reservation {
   final String madeAt;
   final String operationId;
   final String bankId;
-  String? position;
+  final String deadlineTime;
+  String? code;
   bool reviewed;
 
   Reservation({
@@ -16,7 +17,8 @@ class Reservation {
     required this.operationId,
     required this.bankId,
     required this.reviewed,
-    this.position,
+    required this.deadlineTime,
+    this.code,
   });
 
   factory Reservation.fromSnapshot(DataSnapshot snapshot) {
@@ -27,7 +29,8 @@ class Reservation {
       madeAt: data['madeAt'] ?? '',
       operationId: data['operationId'] ?? '',
       bankId: data['bankId'] ?? '',
-      position: data['position'] ?? '',
+      deadlineTime: data['deadlineTime'] ?? '',
+      code: data['code'] ?? '',
       reviewed: data['reviewed'] ?? false,
     );
   }
