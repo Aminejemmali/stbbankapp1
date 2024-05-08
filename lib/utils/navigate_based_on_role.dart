@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stbbankapplication1/screens/authentication/login.dart';
-import 'package:stbbankapplication1/screens/dash_admin.dart';
+import 'package:stbbankapplication1/screens/admin/dash_admin.dart';
 import 'package:stbbankapplication1/screens/liste-agents.dart';
 import 'package:stbbankapplication1/screens/user.dart';
 

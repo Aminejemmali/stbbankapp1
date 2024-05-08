@@ -1,14 +1,13 @@
 import 'dart:async';
 import 'dart:convert';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_polyline_points/flutter_polyline_points.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:stbbankapplication1/db/reservation_db.dart';
+import 'package:intl/intl.dart';
 import 'package:stbbankapplication1/models/Agence.dart';
-import 'package:stbbankapplication1/models/reservation.dart';
+import 'package:stbbankapplication1/screens/mapPage/widgets/bottom_sheet.dart';
 import 'package:stbbankapplication1/services/location_provider.dart';
 import 'package:stbbankapplication1/utils/distance.dart';
 
@@ -27,7 +26,8 @@ class _MapPageState extends State<MapPage> {
   List<Agence> agences = [];
   Set<Marker> markers = {};
   Set<Circle> circles = {};
-  double distance = 30;
+  double distance = 10;
+  int rendezVousCount = -1;
   Future<void> readJson() async {
     final String response = await rootBundle.loadString('assets/agence.json');
     final data = await json.decode(response);
@@ -79,55 +79,15 @@ class _MapPageState extends State<MapPage> {
         .map((e) => Marker(
               markerId: MarkerId(e.id),
               infoWindow: InfoWindow(title: e.name),
-              onTap: () {
+              onTap: () async {
                 showModalBottomSheet(
                     context: context,
                     builder: (BuildContext context) {
-                      // ! Temps attende
-                      // ! rendé vous 9ablo
-                      return Column(
-                        children: [
-                          ElevatedButton(
-                              onPressed: () async {
-                                await ReservationDatabase().makeReservation(
-                                    Reservation(
-                                        id: FirebaseAuth
-                                            .instance.currentUser!.uid,
-                                        madeBy: FirebaseAuth
-                                            .instance.currentUser!.uid,
-                                        madeAt: Timestamp.now()
-                                            .millisecondsSinceEpoch
-                                            .toString(),
-                                        reviewed: false,
-                                        operationId: "account",
-                                        bankId: e.bank_id));
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                    const SnackBar(
-                                        content: Text("Render vos faite")));
-                              },
-                              child: Text("Rendez vous")),
-                          Card(
-                            child: ListTile(
-                              leading: Icon(Icons.balance),
-                              title: Text(e.name),
-                              subtitle: Text(e.id),
-                              trailing: ElevatedButton(
-                                onPressed: () {},
-                                child: const Text('View route'),
-                              ),
-                            ),
-                          ),
-                        ],
-                      );
+                      return BottomSheetWidget(
+                          locationInfo: widget.locationInfo,
+                          // rendezVousCount: rendezVousCount,
+                          agence: e);
                     });
-                // Navigator.push(
-                //     context,
-                //     MaterialPageRoute(
-                //         builder: (context) => MapScreen(
-                //             lat: e.locationBranch.latitude,
-                //             long: e.locationBranch.longitude)));
-                //polylineCoordinates[1].longitude!=e.locationBranch.latitude;
-                //polylineCoordinates[1].longitude!=e.locationBranch.longitude;
               },
               position:
                   LatLng(e.locationBranch.latitude, e.locationBranch.longitude),

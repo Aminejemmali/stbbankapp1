@@ -1,7 +1,9 @@
+import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:stbbankapplication1/providers/agence_list.dart';
 import 'package:stbbankapplication1/providers/current_user.dart';
 import 'package:stbbankapplication1/providers/user_list.dart';
 import 'package:stbbankapplication1/screens/authentication/login.dart';
@@ -15,6 +17,17 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.android,
   );
+
+    AwesomeNotifications().initialize(
+      null,
+      [
+        NotificationChannel(
+            channelKey: "cloudsoftware",
+            channelName: "STB Bank",
+            channelDescription: "Send appointment notification"
+            )
+      ],
+      debug: true);
   runApp(MyApp());
 }
 
@@ -24,7 +37,8 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => UserListProvider()),
-        ChangeNotifierProvider(create: (_) => CurrentUserProvider())
+        ChangeNotifierProvider(create: (_) => CurrentUserProvider()),
+        ChangeNotifierProvider(create: (_) => AgenceListProvider())
       ],
       child: MaterialApp(
         title: 'RapidBankBooking',

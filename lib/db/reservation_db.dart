@@ -18,7 +18,9 @@ class ReservationDatabase {
         'madeAt': reservation.madeAt,
         'operationId': reservation.operationId,
         'bankId': reservation.bankId,
-        'position': generatePosition()
+        'deadlineTime': reservation.deadlineTime,
+        'reviewed': reservation.reviewed,
+        'code': generatePosition()
       });
     } catch (error) {
       print('Error setting reservation: $error');
